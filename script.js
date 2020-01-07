@@ -29,43 +29,43 @@ let score = 0;
 //QUESTIONS
 const questions = [
     {
-        question: "______________?",
-        choiceA: "a",
-        choiceB: "b",
-        choiceC: "c",
-        choiceD: "d",
+        question: "Which well-known female singer has collaborated with Kpop boy band BTS?",
+        choiceA: "Christina Aquilera",
+        choiceB: "Lizzo",
+        choiceC: "Kim Petras",
+        choiceD: "Halsey",
         correct: "d"
     },
     {
-        question: "___________________?",
-        choiceA: "a",
-        choiceB: "b",
-        choiceC: "c",
-        choiceD: "d",
+        question: "What is the highest grossing superhero film besides Avengers?",
+        choiceA: "Spider Man",
+        choiceB: "Ant Man",
+        choiceC: "Black Panther",
+        choiceD: "Doctor Strange",
         correct: "c"
     },
     {
-        question: "_______________________?",
-        choiceA: "a",
-        choiceB: "b",
-        choiceC: "c",
-        choiceD: "d",
+        question: "Which country is the second largest movie industry after Hollywood?",
+        choiceA: "China",
+        choiceB: "Nigeria",
+        choiceC: "Canada",
+        choiceD: "Germany",
         correct: "b"
     },
     {
-        question: "______________________?",
-        choiceA: "a",
-        choiceB: "b",
-        choiceC: "c",
-        choiceD: "d",
+        question: "Which one of these Netflix shows were NOT canceled?",
+        choiceA: "Jessica Jones",
+        choiceB: "Dardevil",
+        choiceC: "Luke Cage",
+        choiceD: "Iron Fist",
         correct: "a"
     },
     {
-        question: "_______________________?",
-        choiceA: "a",
-        choiceB: "b",
-        choiceC: "c",
-        choiceD: "d",
+        question: "What recent film did Leonardo DiCaprio star in?",
+        choiceA: "The Great Gatsby",
+        choiceB: "The Wolf of Wall Street",
+        choiceC: "Once Upon A Time In Hollywood",
+        choiceD: "The Revenant",
         correct: "c"
     },
 
