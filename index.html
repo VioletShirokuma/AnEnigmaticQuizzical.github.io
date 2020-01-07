@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>An Enigmatic Quizzical</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/style.css">
+
+</head>
+<body>
+
+
+    <!--Container
+    title, id for timer and high scores, choices, ids for choices
+    
+    
+    -->
+    <div class="container">
+        <div class="row col-8">
+            <div class="col-6 col-sm-6">
+
+                <h1>An Enigmatic Quizzical</h1>
+
+
+
+
+                    <!-- BOX
+                    hi-scores
+                timer
+            quiz
+        question
+    -->
+
+                <div id="box">
+                    <h6 id="hi-scores">High Scores</h6>
+                    <h6 id="timer">Timer: 0</h6>
+
+
+                    <div id="quiz" style="display:none">
+                        <div id="question">
+
+                            <p>QUESTION:</p>
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+                    <!-- choices, choice
+                progres
+            prog
+        right-a, wrong-a
+quiz-text-->
+        
+                    <div id="choices" style="display: none">
+
+                        <div class="choice" id="A" onclick="checkAnswer('a')"></div>
+                        <div class="choice" id="B" onclick="checkAnswer('b')"></div>
+                        <div class="choice" id="C" onclick="checkAnswer('c')"></div>
+                        <div class="choice" id="D" onclick="checkAnswer('d')"></div>
+                    </div>
+
+
+
+
+
+                    <div id="ongoing">
+                        <div class="prog" style="display: none"></div>
+                    </div>
+
+
+
+                    <div id="right-a"></div>
+
+                    <div id="wrong-a"></div>
+
+
+
+
+
+
+
+                    <p id="quiz-text">Answer these pop culture questions! Incorrect answers will deduct your time. Good luck!
+                    </p>
+
+
+
+
+<!-- start, reset, save-->
+
+                    <button id="start">START</button>
+                    <button id="restart" style="display:none" name="fastforward">restart</button>
+                    
+                    <button id="save" style="display:none">Save Score</button>
+
+                    
+
+
+
+
+<!-- hsBox, scores, hs-content, hs-header, hs-form, object, clear-out-->
+
+                    <div id="hsBox" class="scores">
+                        <div class="hs-content">
+                            <div id="hs-header"></div>
+                            <span class="close">&times;</span>
+
+
+
+
+                            <form action="" id="hs-form">
+                                <input type="text" id="object" placeholder="Enter your initials.">
+                                <ul></ul>
+                                <button id="clear-out">Clear Out</button>
+        
+                        </div>
+                    </div>
+                    
+
+
+
+<!--hi-score-box, hs-box, hs-box-content, hs-close to close out box-->
+
+                    <div id="hi-score-box" class="hs-box">
+                        <div class="hs-box-content">
+
+
+
+                            
+                            <span class="hs-close">&times;</span>
+
+
+
+
+                            </form>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
